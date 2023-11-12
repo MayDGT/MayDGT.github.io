@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Page</title>
+    <title>Shuncheng Tang - Personal Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,17 +12,26 @@
         }
 
         header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             text-align: center;
         }
 
         img {
-            border-radius: 50%;
-            max-width: 200px;
-            margin: 20px;
+            max-width: 150px;
+            margin-left: 300px;
+        }
+
+        .header-content {
+            margin-right: 500px;
+            max-width: 400px;
+
         }
 
         section {
-            margin-bottom: 20px;
+            margin-left: 200px;
+            max-width: 1100px;
         }
 
         h2 {
@@ -34,44 +43,89 @@
 <body>
 
     <header>
-        <img src="your-photo.jpg" alt="Your Name">
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
+        <img src="images/person.jpg" alt="Your Name">
+        <div class="header-content">
+            <h1>Shuncheng Tang (唐顺成)</h1>
+            <h2> PhD Student, USTC </h2>
+            <a href="mailto:scttt@mail.ustc.edu.cn"> Email </a> / 
+            <a href="https://scholar.google.com/citations?user=yxiOfg0AAAAJ&hl=zh-CN&oi=ao"> Google Scholar </a> / 
+            <a href="https://github.com/MayDGT"> GitHub </a>  
+        </div>
     </header>
 
     <section>
         <h2>Introduction</h2>
         <p>
-            Hello! I am a passionate web developer interested in creating awesome and user-friendly web applications.
+            I am a first-year PhD student supervised by <a href="https://yinxingxue.github.io/"> Prof. Yinxing Xue </a> at <a href="https://en.ustc.edu.cn/"> University of Science and Technology of China </a>. 
+            I got my bachelor degree at <a href="https://www.ntu.edu.cn/"> Nantong University </a> advised by <a href="https://smartse.github.io/"> Prof. Xiang Chen </a>.
+            I was fortunate to have a research internship at <a href="https://www.nio.com/"> NIO Inc. </a> under the supervision of <a href="https://scholars.uow.edu.au/zhiquan-zhou"> Prof. George Zhou </a>. I am also privileged to work with <a href="https://choshina.github.io/"> Prof. Zhenya Zhang </a> who has been supporting my research since 2021.
         </p>
     </section>
 
     <section>
         <h2>Education</h2>
-        <p>
-            Bachelor of Science in Computer Science<br>
-            University Name, Graduation Year
-        </p>
-    </section>
-
-    <section>
-        <h2>Employment</h2>
-        <p>
-            Web Developer<br>
-            Company Name, Start Date - Present
-        </p>
+        <ul>
+            <li> 2023.09 - now &emsp; &emsp; &nbsp; PhD in Computer Science, University of Science and Technology of China, China </li>
+            <li> 2020.09 - 2023.06 &emsp; Master in Software Engineering, University of Science and Technology of China, China </li>
+            <li> 2016.09 - 2020.06 &emsp; Bachelor in Software Engineering, Nantong University, China </li>
+        </ul>
     </section>
 
     <section>
         <h2>Publications</h2>
-        <p>
-            "Title of Your Paper"<br>
-            Journal Name, Publication Year
-        </p>
+        <ul>
+            <li>
+                <b><a href="https://ieeexplore.ieee.org/abstract/document/10301222">[ISSRE'23]</a></b>
+                EvoScenario: Integrating Road Structures into Critical Scenario Generation for Autonomous Driving System Testing<br />
+                <b>Shuncheng Tang</b>, Zhenya Zhang, Jixiang Zhou, Yuan Zhou, Yan-Fu Li and Yinxing Xue <br />
+                <em>The 34th International Symposium on Software Reliability Engineering, 2023. </em>
+            </li>
+            <br />
+            <li>
+                <b><a href="https://ieeexplore.ieee.org/abstract/document/10299945">[ISSRE'23]</a></b>
+                From Collision to Verdict: Responsibility Attribution for Autonomous Driving Systems Testing<br />
+                Jixiang Zhou, <b>Shuncheng Tang</b>, Yan Guo, Yan-Fu Li and Yinxing Xue <br />
+                <em>The 34th International Symposium on Software Reliability Engineering, 2023. </em>
+            </li>
+            <br />
+            <li>
+                <b><a href="https://dl.acm.org/doi/abs/10.1145/3579642">[TOSEM'23]</a></b>
+                A Survey on Automated Driving System Testing: Landscapes and Trends<br />
+                <b>Shuncheng Tang</b>, Zhenya Zhang, Yi Zhang, Jixiang Zhou, Yan Guo, Shuang Liu, Shengjian Guo, Yan-Fu Li, Lei Ma, Yinxing Xue and Yang Liu<br />
+                <em>ACM Transactions on Software Engineering and Methodology, 2023. </em>
+            </li>
+            <br />
+            <li>
+                <b><a href="https://ieeexplore.ieee.org/abstract/document/9700185">[ISSREW'21]</a></b>
+                Issue Categorization and Analysis of an Open-Source Driving Assistant System<br />
+                <b>Shuncheng Tang</b>, Zhenya Zhang, Jia Tang, Lei Ma and Yinxing Xue <br />
+                <em>The 32nd International Symposium on Software Reliability Engineering Workshops, 2021. </em>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Industry Experience</h2>
+        <ul>
+            <li> 2022.06 - 2023.01 &emsp; Research Intern at <a href="https://www.nio.com/"> NIO Inc. </a> supervised by <a href="https://scholars.uow.edu.au/zhiquan-zhou"> Prof. George Zhou </a> </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <ul>
+            <li> Email: scttt [at] mail.ustc.edu.cn </li>
+            <li> Email: ttsscc0000 [at] gmail.com </li>
+        </ul>
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=QSFw8Q87aBJSSe4nkTQ5UK3wRZVuWcirq9ZgtwMyTdc&cl=ffffff&w=a">
+            
+        </script>
+
+        <em>last update: 2023.11</em>
     </footer>
 
 </body>
